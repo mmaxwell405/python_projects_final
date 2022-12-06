@@ -50,7 +50,7 @@ while again==True:
         again=False
 
 #Outfile to store password
-outfile=open(r'D:\Random stuff\project.txt', 'w')
+outfile=open(r'D:\project.txt', 'w')
 
 #List to store random characters
 pass_list=[]
@@ -82,7 +82,7 @@ for i in pass_list:
 outfile.close()
 
 #Read the password in saved file
-infile=open(r'D:\Random stuff\project.txt', 'r')
+infile=open(r'D:\project.txt', 'r')
 
 read_file=infile.read()
 
